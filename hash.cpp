@@ -4,8 +4,6 @@
 
 using namespace std;
 
-//const int PRIME_CONST = 81;
-
 int hashMap::hash_function(const string& text) {
     // Implement your own hash function here
     int length = text.length();
@@ -14,7 +12,7 @@ int hashMap::hash_function(const string& text) {
     int r = 0;
     long m = 1;
     for (int i = 0; i < text.length(); i++) {
-        m = (i % 1 == 0) ? 1 : m * 256;
+        m = (i % 2 == 0) ? 1 : m * 256;
         hash_value += text[i] * m;
     }
 
@@ -79,6 +77,7 @@ void hashMap::std() {
 
     std = sqrt(variance);
     cout << "standard deviation: " << std << endl;
+    cout << endl;
 }
 
 void hashMap:: print() { 
