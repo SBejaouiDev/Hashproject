@@ -1,0 +1,224 @@
+g++ -o encoder main.cpp hash.cpp
+./encoder < inputs/mit_a.txt
+
+Testing tokenizer
+The value of k == 100
+The value of n == 500
+
+==== Printing the contents of the first 5 slots ====
+SLOT 1: Absolutely --> Affair --> Alfred --> America --> Antivirus --> 
+SLOT 2: Aging --> Aj --> Already --> Andy --> Appears --> 
+SLOT 3: Advocate --> Africa --> Allied --> Appointed --> 
+SLOT 4: Achieve --> Achieved --> Alarm --> 
+SLOT 5: Adaptive --> Agree --> Agreed --> Answers --> Anything --> Appropriate --> 
+==== Printing the slot lengths ====
+SLOT 1: 5
+SLOT 2: 5
+SLOT 3: 4
+SLOT 4: 3
+SLOT 5: 6
+SLOT 6: 5
+SLOT 7: 7
+SLOT 8: 3
+SLOT 9: 3
+SLOT 10: 2
+SLOT 11: 7
+SLOT 12: 5
+SLOT 13: 6
+SLOT 14: 3
+SLOT 15: 4
+SLOT 16: 6
+SLOT 17: 6
+SLOT 18: 2
+SLOT 19: 5
+SLOT 20: 2
+SLOT 21: 9
+SLOT 22: 7
+SLOT 23: 4
+SLOT 24: 3
+SLOT 25: 6
+SLOT 26: 6
+SLOT 27: 4
+SLOT 28: 6
+SLOT 29: 6
+SLOT 30: 7
+SLOT 31: 6
+SLOT 32: 3
+SLOT 33: 6
+SLOT 34: 3
+SLOT 35: 8
+SLOT 36: 6
+SLOT 37: 4
+SLOT 38: 6
+SLOT 39: 2
+SLOT 40: 1
+SLOT 41: 8
+SLOT 42: 7
+SLOT 43: 5
+SLOT 44: 5
+SLOT 45: 4
+SLOT 46: 6
+SLOT 47: 6
+SLOT 48: 5
+SLOT 49: 3
+SLOT 50: 6
+SLOT 51: 4
+SLOT 52: 6
+SLOT 53: 2
+SLOT 54: 7
+SLOT 55: 6
+SLOT 56: 4
+SLOT 57: 3
+SLOT 58: 9
+SLOT 59: 7
+SLOT 60: 3
+SLOT 61: 5
+SLOT 62: 2
+SLOT 63: 3
+SLOT 64: 8
+SLOT 65: 8
+SLOT 66: 11
+SLOT 67: 5
+SLOT 68: 4
+SLOT 69: 2
+SLOT 70: 5
+SLOT 71: 9
+SLOT 72: 6
+SLOT 73: 4
+SLOT 74: 5
+SLOT 75: 4
+SLOT 76: 6
+SLOT 77: 7
+SLOT 78: 4
+SLOT 79: 1
+SLOT 80: 6
+SLOT 81: 6
+SLOT 82: 6
+SLOT 83: 2
+SLOT 84: 8
+SLOT 85: 8
+SLOT 86: 4
+SLOT 87: 6
+SLOT 88: 13
+SLOT 89: 0
+SLOT 90: 7
+SLOT 91: 3
+SLOT 92: 3
+SLOT 93: 2
+SLOT 94: 2
+SLOT 95: 8
+SLOT 96: 5
+SLOT 97: 3
+SLOT 98: 2
+SLOT 99: 5
+SLOT 100: 4
+==== Printing the standard variance =====
+standard deviation: 2.22711
+
+./encoder < inputs/common500.txt
+
+Testing tokenizer
+The value of k == 50
+The value of n == 500
+
+==== Printing the contents of the first 5 slots ====
+SLOT 1: BY --> COULD --> PROJECT --> LOVE --> GAY --> NOTE --> TV --> 
+SLOT 2: AND --> WE --> OTHER --> LIST --> OCTOBER --> 
+SLOT 3: NO --> USE --> THESE --> BOOKS --> RESULTS --> DVD --> GAME --> DURING --> SITES --> 
+SLOT 4: FROM --> SEARCH --> ONLINE --> LIKE --> LAST --> THEN --> CARE --> LAW --> OLD --> PROCESS --> REGISTER --> 
+SLOT 5: SOFTWARE --> SAID --> LONG --> TECHNOLOGY --> CASE --> EVENTS --> YAHOO --> 
+==== Printing the slot lengths ====
+SLOT 1: 7
+SLOT 2: 5
+SLOT 3: 9
+SLOT 4: 11
+SLOT 5: 7
+SLOT 6: 9
+SLOT 7: 11
+SLOT 8: 9
+SLOT 9: 12
+SLOT 10: 5
+SLOT 11: 10
+SLOT 12: 6
+SLOT 13: 13
+SLOT 14: 8
+SLOT 15: 8
+SLOT 16: 12
+SLOT 17: 15
+SLOT 18: 11
+SLOT 19: 10
+SLOT 20: 15
+SLOT 21: 11
+SLOT 22: 9
+SLOT 23: 11
+SLOT 24: 12
+SLOT 25: 11
+SLOT 26: 14
+SLOT 27: 9
+SLOT 28: 8
+SLOT 29: 10
+SLOT 30: 11
+SLOT 31: 7
+SLOT 32: 6
+SLOT 33: 12
+SLOT 34: 11
+SLOT 35: 6
+SLOT 36: 17
+SLOT 37: 8
+SLOT 38: 12
+SLOT 39: 10
+SLOT 40: 9
+SLOT 41: 4
+SLOT 42: 8
+SLOT 43: 15
+SLOT 44: 10
+SLOT 45: 9
+SLOT 46: 12
+SLOT 47: 9
+SLOT 48: 14
+SLOT 49: 10
+SLOT 50: 12
+==== Printing the standard variance =====
+standard deviation: 2.79285
+
+./encoder < inputs/bertuncased.txt 
+
+Testing tokenizer
+The value of k == 25
+The value of n == 346
+
+==== Printing the contents of the first 5 slots ====
+SLOT 1: oblast --> mistress --> auction --> inclusion --> ladder --> crushed --> demonstrate --> hector --> mentally --> myth --> potter --> noel --> 
+SLOT 2: brighton --> implement --> baroque --> strongest --> pavilion --> crawford --> ribbon --> armored --> raiders --> republicans --> secular --> nationality --> fold --> haired --> 
+SLOT 3: belfast --> freely --> gaming --> pier --> wickets --> tide --> react --> tunnels --> explored --> presumably --> 
+SLOT 4: hugged --> alpine --> challenging --> bach --> julius --> sponsor --> destiny --> halifax --> edmonton --> locals --> hanna --> wyoming --> gotta --> coordinator --> 
+SLOT 5: populated --> pour --> boxer --> alexandra --> viola --> manuscripts --> disappointment --> withdrawal --> consulting --> monkey --> governance --> nerves --> criticised --> jonas --> 
+==== Printing the slot lengths ====
+SLOT 1: 12
+SLOT 2: 14
+SLOT 3: 10
+SLOT 4: 14
+SLOT 5: 14
+SLOT 6: 21
+SLOT 7: 15
+SLOT 8: 14
+SLOT 9: 17
+SLOT 10: 12
+SLOT 11: 11
+SLOT 12: 16
+SLOT 13: 13
+SLOT 14: 13
+SLOT 15: 16
+SLOT 16: 11
+SLOT 17: 12
+SLOT 18: 15
+SLOT 19: 26
+SLOT 20: 11
+SLOT 21: 9
+SLOT 22: 12
+SLOT 23: 13
+SLOT 24: 14
+SLOT 25: 11
+==== Printing the standard variance =====
+standard deviation: 3.50634
+
