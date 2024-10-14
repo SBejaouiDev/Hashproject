@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//const int PRIME_CONST = 81;
+
 int hashMap::hash_function(const string& text) {
     // Implement your own hash function here
     int length = text.length();
@@ -45,7 +47,7 @@ void hashMap::insertItem(const string& key) {
 }
 
 void hashMap:: printSlotSize() { 
-    for(int i = 0;i < 5;i++) { 
+    for(int i = 0;i < hashTableSize ;i++) { 
         cout << "SLOT " << i+1 << ": " << slotSize[i] << endl; 
     }  
     //cout << "total is " << hashTotal << endl; 
